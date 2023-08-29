@@ -1,7 +1,6 @@
 {
   "name": "evento-ficticio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
@@ -10,7 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {   
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3"
-  }
+  },
+  "description": ""
 }
